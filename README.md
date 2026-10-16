@@ -87,7 +87,7 @@ The business change is in the review queue, not in the share of fraud that is ca
 
 ### 2. Two independent tech stocks
 
-Returns below are decimals. Independence means $\operatorname{Cov}(X, Y) = 0$.
+Returns below are decimals. Independence means $\mathrm{Cov}(X, Y) = 0$.
 
 | Stock A return | −2% | 0% | 3% | 5% |
 | --- | ---: | ---: | ---: | ---: |
@@ -122,7 +122,7 @@ $$
 #### 2(b). Variances, shortcut formula
 
 $$
-\operatorname{Var}(X) = E[X^2] - (E[X])^2.
+\mathrm{Var}(X) = E[X^2] - (E[X])^2.
 $$
 
 $$
@@ -136,7 +136,7 @@ E[X^2]
 $$
 
 $$
-\operatorname{Var}(X) = 0.00090 - (0.020)^2 = 0.00090 - 0.00040 = 0.00050.
+\mathrm{Var}(X) = 0.00090 - (0.020)^2 = 0.00090 - 0.00040 = 0.00050.
 $$
 
 $$
@@ -150,10 +150,10 @@ E[Y^2]
 $$
 
 $$
-\operatorname{Var}(Y) = 0.00071 - (0.023)^2 = 0.00071 - 0.000529 = 0.000181.
+\mathrm{Var}(Y) = 0.00071 - (0.023)^2 = 0.00071 - 0.000529 = 0.000181.
 $$
 
-**Answer.** $\operatorname{Var}(X) = 0.00050$. $\operatorname{Var}(Y) = 0.000181$.
+**Answer.** $\mathrm{Var}(X) = 0.00050$. $\mathrm{Var}(Y) = 0.000181$.
 
 #### 2(c). Portfolio $R = 0.6X + 0.4Y$
 
@@ -165,15 +165,15 @@ $$
 
 $$
 \begin{aligned}
-\operatorname{Var}(R)
-&= (0.6)^2 \operatorname{Var}(X) + (0.4)^2 \operatorname{Var}(Y) \\
+\mathrm{Var}(R)
+&= (0.6)^2 \mathrm{Var}(X) + (0.4)^2 \mathrm{Var}(Y) \\
 &= (0.36)(0.00050) + (0.16)(0.000181) \\
 &= 0.000180 + 0.00002896 \\
 &= 0.00020896.
 \end{aligned}
 $$
 
-**Answer.** $E[R] = 0.0212$ (2.12 percent). $\operatorname{Var}(R) = 0.00020896$.
+**Answer.** $E[R] = 0.0212$ (2.12 percent). $\mathrm{Var}(R) = 0.00020896$.
 
 ### 3. Server response time
 
